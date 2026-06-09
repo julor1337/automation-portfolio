@@ -1,0 +1,5 @@
+contact,company,last_contact,next_step,due_date,value,status
+Marta,Northstar Studio,2026-06-01,Send proposal outline,2026-06-09,1200,warm
+Alex,ScaleOps,2026-05-28,Ask for workflow samples,2026-06-07,3500,warm
+Nina,HealthFlow,2026-06-08,Wait for internal approval,2026-06-15,5000,pending
+Sam,Local Craft Co,2026-06-03,Share starter package,2026-06-10,400,cold

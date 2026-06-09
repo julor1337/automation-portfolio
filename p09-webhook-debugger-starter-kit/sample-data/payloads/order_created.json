@@ -1,0 +1,1 @@
+{"event_id":"evt_1001","event_type":"order.created","source":"demo_shop","payload":{"order_id":"E1001","total":149.0}}

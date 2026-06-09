@@ -1,0 +1,5 @@
+ticket_id,customer,plan,message,created_at
+T-100,Avery Example,Pro,Checkout failed twice and my order is stuck,2026-06-08
+T-101,Blake Example,Basic,How do I change my billing email,2026-06-09
+T-102,Casey Example,Enterprise,API webhook returns 500 for every event,2026-06-09
+T-103,Drew Example,Basic,Thanks for the fast fix yesterday,2026-06-07

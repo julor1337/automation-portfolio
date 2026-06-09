@@ -1,0 +1,1 @@
+{"event_id":"evt_1002","event_type":"lead.created","source":"demo_form","payload":{"email":"lead@example.invalid","budget":18000}}

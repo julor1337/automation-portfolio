@@ -1,0 +1,5 @@
+Vendor: ShipBox Demo
+Date: 2026-06-02
+Amount: 84.20
+Category: Shipping
+Description: Sample shipping labels

@@ -1,0 +1,5 @@
+Vendor: CloudDesk Demo
+Date: 2026-05-04
+Amount: 49.00
+Category: Software
+Description: Project management subscription

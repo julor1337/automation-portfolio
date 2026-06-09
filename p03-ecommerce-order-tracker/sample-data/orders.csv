@@ -1,0 +1,5 @@
+order_id,customer,status,order_date,promised_ship_date,ship_date,total,channel
+E1001,Avery Example,paid,2026-06-02,2026-06-06,,149.00,Etsy
+E1002,Jordan Example,shipped,2026-06-01,2026-06-05,2026-06-04,59.00,Shopify
+E1003,Riley Example,paid,2026-06-07,2026-06-12,,210.00,Etsy
+E1004,Taylor Example,exception,2026-06-03,2026-06-08,,89.00,WooCommerce

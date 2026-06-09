@@ -1,0 +1,4 @@
+client_name,contact_email,service,goal,start_date,tools
+Bright Books,hello@example.invalid,Google Sheets automation,Weekly reporting,2026-06-15,Google Sheets; Gmail
+Metric Lane,ops@example.invalid,n8n workflow,Lead routing,2026-06-18,n8n; Airtable; Slack
+Studio Verde,owner@example.invalid,Zapier cleanup,Order handoff,2026-06-20,Zapier; Shopify

@@ -1,0 +1,6 @@
+workflow,run_id,started_at,duration_seconds,status,error
+Lead Router,run_001,2026-06-09T08:00:00,42,success,
+Lead Router,run_002,2026-06-09T09:00:00,310,success,
+Order Tracker,run_003,2026-06-09T09:30:00,88,failed,timeout waiting for fake shop API
+CRM Reminder,run_004,2026-06-09T10:00:00,25,success,
+Content Pipeline,run_005,2026-06-09T10:30:00,180,failed,missing approval flag
