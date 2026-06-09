@@ -1,7 +1,14 @@
 # Automation Portfolio Projects
 
-This folder contains public-safe automation demos for Fiverr and GitHub.
-Each project uses synthetic data, Python standard library only, and human-in-the-loop outputs.
+Public-safe automation showcase projects for Fiverr and GitHub. Each demo uses synthetic data, Python standard library only, modular code, tests, documentation, and human-in-the-loop outputs.
+
+## Featured Showcase Projects
+
+- `p01-lead-intake-ai-router`: lead scoring, validation, routing, and follow-up review queue.
+- `p09-webhook-debugger-starter-kit`: local JSON payload validation, event routing, and debug logs.
+- `p10-automation-health-monitor`: workflow failure detection, latency checks, and retry planning.
+
+## All Projects
 
 | ID | Project | Folder | Demo |
 | --- | --- | --- | --- |
@@ -15,3 +22,7 @@ Each project uses synthetic data, Python standard library only, and human-in-the
 | P08 | Product Listing Generator | `p08-product-listing-generator` | `python src/run_demo.py` |
 | P09 | Webhook Debugger Starter Kit | `p09-webhook-debugger-starter-kit` | `python src/run_demo.py` |
 | P10 | Automation Health Monitor | `p10-automation-health-monitor` | `python src/run_demo.py` |
+
+## Safety
+
+The repository contains no real API keys, private webhook URLs, credentials, cookies, client records, or live integrations.

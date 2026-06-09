@@ -1,0 +1,4 @@
+Vendor: Missing Amount Demo
+Date: 2026-06-05
+Category: Software
+Description: Missing amount edge case

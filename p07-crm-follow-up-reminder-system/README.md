@@ -1,36 +1,44 @@
 # CRM Follow-up Reminder System
 
-## Problem
-Freelancers miss warm follow-ups because CRM rows are passive and reminders are inconsistent.
+Finds due CRM follow-ups, sorts opportunities by value, and prepares no-send reminder drafts.
 
-## Solution
-A human-in-the-loop follow-up planner that finds due contacts and drafts reminders without sending anything.
+## What The Workflow Demonstrates
+- Structured intake from local sample data
+- Validation and scoring rules
+- Human review before real-world action
+- Report generation for an operations queue
+- A clean path to n8n, Make, Zapier, Google Sheets, APIs, or CRM integrations
 
-## Workflow
-`CRM CSV -> due-date check -> value sort -> reminder drafts -> weekly report`
+## Project Structure
+```text
+src/config.py
+src/models.py
+src/rules.py
+src/pipeline.py
+src/report_writer.py
+src/run_demo.py
+tests/test_pipeline.py
+docs/architecture.md
+docs/example-output.md
+docs/extension-ideas.md
+sample-data/
+```
 
-## Tech Stack
-- Python 3 standard library only
-- CSV, JSON, text, and Markdown files
-- Local demo data in `sample-data/`
-- Generated output in `outputs/`
-
-## How to Run Locally
+## How To Run
 ```bash
 python src/run_demo.py
 ```
 
-Run `python src/run_demo.py` to create `followups_due.csv` and `reminder_drafts.md`.
+## How To Run Tests
+```bash
+python -m unittest discover -s tests
+```
 
-## Demo Data Explanation
-All files in `sample-data/` are synthetic examples. They are designed to show how the automation behaves before connecting any real account, store, CRM, sheet, API, or webhook.
+## Demo Data
+All files in `sample-data/` are synthetic. They are designed to show happy paths, review cases, and edge cases without using client data.
 
 ## Security Note
-This repository uses mock data only. It contains no real API keys, tokens, client records, private webhook URLs, cookies, or credentials. Use `.env.example` as a placeholder reference and keep real `.env` files local.
+This demo does not call external APIs, send messages, publish listings, place orders, or trigger webhooks. `.env.example` contains placeholders only. Real credentials and client data should never be committed.
 
-## What This Demonstrates for Automation Clients
-- A clear end-to-end automation workflow
-- Human approval before real-world actions
-- Public-safe project structure for GitHub
-- Practical thinking for Fiverr automation services
-- Easy handoff from demo logic to n8n, Make, Zapier, Google Sheets, or API integrations
+## Automation Mapping
+CRM export -> due-date detector -> value sorter -> reminder draft -> owner approval before sending.

@@ -1,5 +1,6 @@
-idea,platform,goal,audience,priority
-How I automate lead intake,TikTok,Authority,small business owners,high
-Three Etsy listing checks,TikTok,Education,new shop owners,medium
-Before and after workflow cleanup,LinkedIn,Trust,founders,high
-Automation mistake checklist,Shorts,Education,freelancers,medium
+idea,platform,goal,audience,priority,effort
+How I automate lead intake,TikTok,Authority,small business owners,high,medium
+Three Etsy listing checks,TikTok,Education,new shop owners,medium,low
+Before and after workflow cleanup,LinkedIn,Trust,founders,high,high
+Automation mistake checklist,Shorts,Education,freelancers,medium,low
+Webhook debugging live demo,YouTube,Authority,automation buyers,high,high

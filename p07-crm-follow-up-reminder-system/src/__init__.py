@@ -1,0 +1,1 @@
+"""Local automation demo package."""
