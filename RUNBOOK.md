@@ -4,16 +4,16 @@
 This folder contains 10 GitHub-safe automation portfolio projects. Each project has its own folder, README, sample data, Python demo, security checklist, and placeholder `.env.example`.
 
 ## Project folders
-- `p01-lead-intake-ai-router`
-- `p02-client-onboarding-automation`
-- `p03-ecommerce-order-tracker`
-- `p04-invoice-expense-parser-demo`
-- `p05-content-pipeline-automation`
-- `p06-support-ticket-triage-bot`
-- `p07-crm-follow-up-reminder-system`
-- `p08-product-listing-generator`
-- `p09-webhook-debugger-starter-kit`
-- `p10-automation-health-monitor`
+- `lead-intake-ai-router`
+- `client-onboarding-automation`
+- `ecommerce-order-tracker`
+- `invoice-expense-parser-demo`
+- `content-pipeline-automation`
+- `support-ticket-triage-bot`
+- `crm-follow-up-reminder-system`
+- `product-listing-generator`
+- `webhook-debugger-starter-kit`
+- `automation-health-monitor`
 
 ## Agent prompts
 Prompts for the Hermes Portfolio Team are stored in:
